@@ -13,7 +13,7 @@ public class Main {
 
         Properties prop = new Properties();
         World model;
-        try (FileReader reader = new FileReader("C:\\Users\\Oem\\Documents\\GitHub\\009_projekt-tpawilczus\\src\\controller\\app.properties")) {
+        try (FileReader reader = new FileReader("C:\\Users\\Oem\\Documents\\GitHub\\JavaWorld\\src\\controller\\app.properties")) {
             prop.load(reader);
             model = new World();
 
